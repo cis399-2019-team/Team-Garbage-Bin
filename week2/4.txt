@@ -1,0 +1,12 @@
+Script started on 2019-07-07 21:05:22+0000
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;ubuntu@ip-10-0-2-219: ~[01;32mubuntu@ip-10-0-2-219[00m:[01;34m~[00m$ free -m
+              total        used        free      shared  buff/cache   available
+Mem:            479         110          39           0         329         356
+Swap:             0           0           0
+]0;ubuntu@ip-10-0-2-219: ~[01;32mubuntu@ip-10-0-2-219[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-07-07 21:05:33+0000
