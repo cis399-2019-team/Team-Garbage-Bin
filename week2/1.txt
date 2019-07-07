@@ -1,2 +1,5 @@
-Instance ID: i-09ab26ef977ebb374
-Private ip: 10.0.2.219
+Instance ID (Devin): i-09ab26ef977ebb374
+Instance ID (Lucas): i-00d5abc6ecd94a6f5
+
+Private ip (Devin): 10.0.2.219
+Private IP (Lucas): 10.0.2.157
