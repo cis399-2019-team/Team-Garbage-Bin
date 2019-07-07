@@ -1,0 +1,7 @@
+As described at https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-instance-addressing.html
+
+1. Open the Amazon EC2 console at https://console.aws.amazon.com/ec2/.
+
+2. In the navigation pane, choose Instances.
+
+3. Select your instance. In the details pane, get the public IP address from the IPv4 Public IP field, and get the external DNS hostname from the Public DNS (IPv4) field.

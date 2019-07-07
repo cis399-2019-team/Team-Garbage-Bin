@@ -1,0 +1,2 @@
+Instance ID: i-09ab26ef977ebb374
+Private ip: 10.0.2.219
