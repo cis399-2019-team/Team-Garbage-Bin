@@ -1,5 +1,5 @@
 Script started on 2019-07-07 21:51:16+0000
-]0;ubuntu@ip-10-0-2-219: ~[01;32mubuntu@ip-10-0-2-219[00m:[01;34m~[00m$ netstat -i
+]0;ubuntu@ip-10-0-2-219: ~[01;32mubuntu@ip-10-0-2-219[00m:[01;34m~[00m$ netstat -i
 Kernel Interface table
 Iface      MTU    RX-OK RX-ERR RX-DRP RX-OVR    TX-OK TX-ERR TX-DRP TX-OVR Flg
 eth0      9001   239479      0      0 0        115151      0      0      0 BMRU
