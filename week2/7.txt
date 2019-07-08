@@ -7,5 +7,21 @@ default         ip-10-0-2-1.us- 0.0.0.0         UG    100    0        0 eth0
 ip-10-0-2-1.us- 0.0.0.0         255.255.255.255 UH    100    0        0 eth0
 ]0;ubuntu@ip-10-0-2-219: ~[01;32mubuntu@ip-10-0-2-219[00m:[01;34m~[00m$ exit
 exit
-
 Script done on 2019-07-07 21:48:11+0000
+
+Lucas Instance ---> 
+
+Script started on 2019-07-07 23:57:50+0000
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;ubuntu@ip-10-0-2-157: ~/Team-Garbage-Bin/week2[01;32mubuntu@ip-10-0-2-157[00m:[01;34m~/Team-Garbage-Bin/week2[00m$ route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         ip-10-0-2-1.us- 0.0.0.0         UG    100    0        0 eth0
+10.0.2.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0
+ip-10-0-2-1.us- 0.0.0.0         255.255.255.255 UH    100    0        0 eth0
+]0;ubuntu@ip-10-0-2-157: ~/Team-Garbage-Bin/week2[01;32mubuntu@ip-10-0-2-157[00m:[01;34m~/Team-Garbage-Bin/week2[00m$ exit
+exit
+
+Script done on 2019-07-07 23:57:55+0000

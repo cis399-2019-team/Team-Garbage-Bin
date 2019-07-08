@@ -504,3 +504,135 @@ Setting up ubuntu-server (1.417.1) ...
 Processing triggers for libc-bin (2.27-3ubuntu1) ...
 
 Script done on 2019-07-07 21:38:10+0000
+
+
+
+
+Lucas Instance ----> 
+
+
+
+
+Script started on 2019-07-08 00:07:30+0000
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;ubuntu@ip-10-0-2-157: ~/Team-Garbage-Bin/week2[01;32mubuntu@ip-10-0-2-157[00m:[01;34m~/Team-Garbage-Bin/week2[00m$ sudo apt-get update
+0% [Working]            Hit:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic InRelease
+0% [Connecting to security.ubuntu.com (91.189.88.31)]                                                     Get:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+0% [Waiting for headers] [Connecting to security.ubuntu.com (91.189.88.31)]                                                                           Get:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+0% [3 InRelease 25.8 kB/74.6 kB 35%] [Connecting to security.ubuntu.com (91.189.88.31)]0% [1 InRelease gpgv 242 kB] [3 InRelease 57.0 kB/74.6 kB 76%] [Connecting to security.ubunt                                                                                            0% [1 InRelease gpgv 242 kB] [Connecting to security.ubuntu.com (91.189.88.31)]                                                                               0% [Connecting to security.ubuntu.com (91.189.88.31)]0% [2 InRelease gpgv 88.7 kB] [Waiting for headers] [Connecting to security.ubuntu.com (91.1                                                                                            Get:4 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/universe amd64 Packages [8570 kB]
+0% [2 InRelease gpgv 88.7 kB] [4 Packages 32.4 kB/8570 kB 0%] [Connecting to security.ubuntu                                                                                            Get:5 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+0% [2 InRelease gpgv 88.7 kB] [4 Packages 7687 kB/8570 kB 90%] [5 InRelease 2586 B/88.7 kB 3                                                                                            0% [2 InRelease gpgv 88.7 kB] [5 InRelease 11.3 kB/88.7 kB 13%]                                                               0% [5 InRelease 14.2 kB/88.7 kB 16%]                                    Get:6 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/universe Translation-en [4941 kB]
+0% [4 Packages store 0 B] [6 Translation-en 25.9 kB/4941 kB 1%] [5 InRelease 14.2 kB/88.7 kB0% [4 Packages store 0 B] [3 InRelease gpgv 74.6 kB] [6 Translation-en 25.9 kB/4941 kB 1%] [                                                                                            0% [4 Packages store 0 B] [3 InRelease gpgv 74.6 kB] [5 InRelease 34.4 kB/88.7 kB 39%]                                                                                      Get:7 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/multiverse amd64 Packages [151 kB]
+0% [4 Packages store 0 B] [3 InRelease gpgv 74.6 kB] [7 Packages 0 B/151 kB 0%] [5 InRelease                                                                                            0% [4 Packages store 0 B] [3 InRelease gpgv 74.6 kB] [5 InRelease 34.4 kB/88.7 kB 39%]                                                                                      Get:8 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/multiverse Translation-en [108 kB]
+0% [4 Packages store 0 B] [3 InRelease gpgv 74.6 kB] [8 Translation-en 0 B/108 kB 0%] [5 InR                                                                                            0% [4 Packages store 0 B] [3 InRelease gpgv 74.6 kB] [5 InRelease 37.3 kB/88.7 kB 42%]                                                                                      Get:9 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [679 kB]
+0% [4 Packages store 0 B] [3 InRelease gpgv 74.6 kB] [9 Packages 0 B/679 kB 0%] [5 InRelease                                                                                            0% [4 Packages store 0 B] [3 InRelease gpgv 74.6 kB] [5 InRelease 43.1 kB/88.7 kB 49%]                                                                                      Get:10 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main Translation-en [249 kB]
+0% [4 Packages store 0 B] [3 InRelease gpgv 74.6 kB] [10 Translation-en 0 B/249 kB 0%] [5 In                                                                                            0% [4 Packages store 0 B] [3 InRelease gpgv 74.6 kB] [5 InRelease 43.1 kB/88.7 kB 49%]                                                                                      Get:11 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages [969 kB]
+0% [4 Packages store 0 B] [3 InRelease gpgv 74.6 kB] [11 Packages 0 B/969 kB 0%] [5 InReleas                                                                                            0% [4 Packages store 0 B] [3 InRelease gpgv 74.6 kB] [5 InRelease 48.9 kB/88.7 kB 55%]                                                                                      Get:12 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/universe Translation-en [287 kB]
+0% [4 Packages store 0 B] [3 InRelease gpgv 74.6 kB] [12 Translation-en 0 B/287 kB 0%] [5 In                                                                                            0% [4 Packages store 0 B] [3 InRelease gpgv 74.6 kB] [5 InRelease 54.7 kB/88.7 kB 62%]                                                                                      Get:13 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 Packages [6644 B]
+0% [4 Packages store 0 B] [3 InRelease gpgv 74.6 kB] [13 Packages 0 B/6644 B 0%] [5 InReleas                                                                                            0% [4 Packages store 0 B] [3 InRelease gpgv 74.6 kB] [5 InRelease 54.7 kB/88.7 kB 62%]                                                                                      Get:14 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/multiverse Translation-en [3556 B]
+0% [4 Packages store 0 B] [3 InRelease gpgv 74.6 kB] [14 Translation-en 0 B/3556 B 0%] [5 In                                                                                            0% [4 Packages store 0 B] [3 InRelease gpgv 74.6 kB] [5 InRelease 54.7 kB/88.7 kB 62%]                                                                                      0% [4 Packages store 0 B] [3 InRelease gpgv 74.6 kB]                                                    0% [4 Packages store 0 B]0% [4 Packages store 0 B] [5 InRelease gpgv 88.7 kB] [Waiting for headers]                                                                          Get:15 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-backports/main amd64 Packages [2512 B]
+                                                                          0% [4 Packages store 0 B] [5 InRelease gpgv 88.7 kB]                                                    Get:16 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-backports/main Translation-en [1644 B]
+0% [4 Packages store 0 B] [5 InRelease gpgv 88.7 kB] [16 Translation-en 0 B/1644 B 0%]                                                                                      0% [4 Packages store 0 B] [5 InRelease gpgv 88.7 kB] [Waiting for headers]                                                                          Get:17 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-backports/universe amd64 Packages [3736 B]
+0% [4 Packages store 0 B] [5 InRelease gpgv 88.7 kB] [Waiting for headers]                                                                          Get:18 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-backports/universe Translation-en [1696 B]
+                                                                          0% [4 Packages store 0 B] [5 InRelease gpgv 88.7 kB]                                                    89% [4 Packages store 0 B]                          Get:19 http://security.ubuntu.com/ubuntu bionic-security/main amd64 Packages [448 kB]
+89% [4 Packages store 0 B] [19 Packages 2687 B/448 kB 1%]                                                         91% [4 Packages store 0 B]                          Get:20 http://security.ubuntu.com/ubuntu bionic-security/main Translation-en [156 kB]
+91% [4 Packages store 0 B] [20 Translation-en 4135 B/156 kB 3%]                                                               Get:21 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 Packages [570 kB]
+                                                               92% [4 Packages store 0 B] [21 Packages 50 B/570 kB 0%]                                                       Get:22 http://security.ubuntu.com/ubuntu bionic-security/universe Translation-en [185 kB]
+94% [4 Packages store 0 B] [22 Translation-en 3545 B/185 kB 2%]                                                               Get:23 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 Packages [4008 B]
+                                                               95% [4 Packages store 0 B] [23 Packages 496 B/4008 B 12%]                                                         Get:24 http://security.ubuntu.com/ubuntu bionic-security/multiverse Translation-en [2060 B]
+                                                         95% [4 Packages store 0 B]                          95% [Working]95% [6 Translation-en store 0 B]95% [6 Translation-en store 0 B]                                96% [Working]96% [7 Packages store 0 B]                          96% [Working]96% [8 Translation-en store 0 B]                                96% [Working]96% [9 Packages store 0 B]                          96% [Working]96% [10 Translation-en store 0 B]                                 97% [Working]97% [11 Packages store 0 B]                           97% [Working]97% [12 Translation-en store 0 B]                                 97% [Working]97% [13 Packages store 0 B]                           97% [Working]97% [14 Translation-en store 0 B]                                 98% [Working]98% [15 Packages store 0 B]                           98% [Working]98% [16 Translation-en store 0 B]                                 98% [Working]98% [17 Packages store 0 B]                           98% [Working]98% [18 Translation-en store 0 B]                                 99% [Working]99% [19 Packages store 0 B]                           99% [Working]99% [20 Translation-en store 0 B]                                 99% [Working]99% [21 Packages store 0 B]                           99% [Working]99% [22 Translation-en store 0 B]                                 100% [Working]100% [23 Packages store 0 B]                            100% [Working]100% [24 Translation-en store 0 B]                                  100% [Working]              Fetched 17.6 MB in 4s (4874 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 5%Reading package lists... 5%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 50%Reading package lists... 50%Reading package lists... 73%Reading package lists... 73%Reading package lists... 73%Reading package lists... 73%Reading package lists... 74%Reading package lists... 74%Reading package lists... 78%Reading package lists... 78%Reading package lists... 79%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 87%Reading package lists... 87%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 92%Reading package lists... 92%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+]0;ubuntu@ip-10-0-2-157: ~/Team-Garbage-Bin/week2[01;32mubuntu@ip-10-0-2-157[00m:[01;34m~/Team-Garbage-Bin/week2[00m$ sudo apt-get upgrade
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Calculating upgrade... 0%Calculating upgrade... 50%Calculating upgrade... Done
+The following packages will be upgraded:
+  bzip2 libbz2-1.0 libdrm-common libdrm2 libnss-systemd libpam-systemd libsystemd0 libudev1
+  python3-distupgrade systemd systemd-sysv tzdata ubuntu-release-upgrader-core udev
+14 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 4909 kB of archives.
+After this operation, 2048 B of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]            Get:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libnss-systemd amd64 237-3ubuntu10.24 [105 kB]
+0% [1 libnss-systemd 0 B/105 kB 0%]                                   3% [Working]            Get:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libsystemd0 amd64 237-3ubuntu10.24 [204 kB]
+3% [2 libsystemd0 0 B/204 kB 0%]                                8% [Working]            Get:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpam-systemd amd64 237-3ubuntu10.24 [108 kB]
+8% [3 libpam-systemd 0 B/108 kB 0%]                                   11% [Working]             Get:4 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 systemd amd64 237-3ubuntu10.24 [2903 kB]
+11% [4 systemd 0 B/2903 kB 0%]                              60% [Working]             Get:5 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 udev amd64 237-3ubuntu10.24 [1101 kB]
+60% [5 udev 0 B/1101 kB 0%]                           79% [Working]             Get:6 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libudev1 amd64 237-3ubuntu10.24 [53.6 kB]
+79% [6 libudev1 0 B/53.6 kB 0%]                               81% [Working]             Get:7 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 systemd-sysv amd64 237-3ubuntu10.24 [11.4 kB]
+81% [7 systemd-sysv 0 B/11.4 kB 0%]                                   83% [Working]             Get:8 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 bzip2 amd64 1.0.6-8.1ubuntu0.2 [33.9 kB]
+83% [8 bzip2 0 B/33.9 kB 0%]                            85% [Working]             Get:9 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libbz2-1.0 amd64 1.0.6-8.1ubuntu0.2 [31.2 kB]
+85% [9 libbz2-1.0 0 B/31.2 kB 0%]                                 87% [Working]             Get:10 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 tzdata all 2019b-0ubuntu0.18.04 [190 kB]
+87% [10 tzdata 0 B/190 kB 0%]                             92% [Working]             Get:11 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libdrm-common all 2.4.97-1ubuntu1~18.04.1 [5216 B]
+92% [11 libdrm-common 0 B/5216 B 0%]                                    93% [Working]             Get:12 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libdrm2 amd64 2.4.97-1ubuntu1~18.04.1 [31.3 kB]
+93% [12 libdrm2 0 B/31.3 kB 0%]                               95% [Working]             Get:13 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 ubuntu-release-upgrader-core all 1:18.04.34 [25.2 kB]
+95% [13 ubuntu-release-upgrader-core 0 B/25.2 kB 0%]                                                    97% [Working]             Get:14 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 python3-distupgrade all 1:18.04.34 [107 kB]
+97% [14 python3-distupgrade 0 B/107 kB 0%]                                          100% [Working]              Fetched 4909 kB in 0s (48.2 MB/s)
+Preconfiguring packages ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 56621 files and directories currently installed.)
+Preparing to unpack .../libnss-systemd_237-3ubuntu10.24_amd64.deb ...
+Unpacking libnss-systemd:amd64 (237-3ubuntu10.24) over (237-3ubuntu10.23) ...
+Preparing to unpack .../libsystemd0_237-3ubuntu10.24_amd64.deb ...
+Unpacking libsystemd0:amd64 (237-3ubuntu10.24) over (237-3ubuntu10.23) ...
+Setting up libsystemd0:amd64 (237-3ubuntu10.24) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 56621 files and directories currently installed.)
+Preparing to unpack .../libpam-systemd_237-3ubuntu10.24_amd64.deb ...
+Unpacking libpam-systemd:amd64 (237-3ubuntu10.24) over (237-3ubuntu10.23) ...
+Preparing to unpack .../systemd_237-3ubuntu10.24_amd64.deb ...
+Unpacking systemd (237-3ubuntu10.24) over (237-3ubuntu10.23) ...
+Preparing to unpack .../udev_237-3ubuntu10.24_amd64.deb ...
+Unpacking udev (237-3ubuntu10.24) over (237-3ubuntu10.23) ...
+Preparing to unpack .../libudev1_237-3ubuntu10.24_amd64.deb ...
+Unpacking libudev1:amd64 (237-3ubuntu10.24) over (237-3ubuntu10.23) ...
+Setting up libudev1:amd64 (237-3ubuntu10.24) ...
+Setting up systemd (237-3ubuntu10.24) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 56621 files and directories currently installed.)
+Preparing to unpack .../systemd-sysv_237-3ubuntu10.24_amd64.deb ...
+Unpacking systemd-sysv (237-3ubuntu10.24) over (237-3ubuntu10.23) ...
+Preparing to unpack .../bzip2_1.0.6-8.1ubuntu0.2_amd64.deb ...
+Unpacking bzip2 (1.0.6-8.1ubuntu0.2) over (1.0.6-8.1ubuntu0.1) ...
+Preparing to unpack .../libbz2-1.0_1.0.6-8.1ubuntu0.2_amd64.deb ...
+Unpacking libbz2-1.0:amd64 (1.0.6-8.1ubuntu0.2) over (1.0.6-8.1ubuntu0.1) ...
+Setting up libbz2-1.0:amd64 (1.0.6-8.1ubuntu0.2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 56621 files and directories currently installed.)
+Preparing to unpack .../tzdata_2019b-0ubuntu0.18.04_all.deb ...
+Unpacking tzdata (2019b-0ubuntu0.18.04) over (2019a-0ubuntu0.18.04) ...
+Preparing to unpack .../libdrm-common_2.4.97-1ubuntu1~18.04.1_all.deb ...
+Unpacking libdrm-common (2.4.97-1ubuntu1~18.04.1) over (2.4.95-1~18.04.1) ...
+Preparing to unpack .../libdrm2_2.4.97-1ubuntu1~18.04.1_amd64.deb ...
+Unpacking libdrm2:amd64 (2.4.97-1ubuntu1~18.04.1) over (2.4.95-1~18.04.1) ...
+Preparing to unpack .../ubuntu-release-upgrader-core_1%3a18.04.34_all.deb ...
+Unpacking ubuntu-release-upgrader-core (1:18.04.34) over (1:18.04.33) ...
+Preparing to unpack .../python3-distupgrade_1%3a18.04.34_all.deb ...
+Unpacking python3-distupgrade (1:18.04.34) over (1:18.04.33) ...
+Setting up libnss-systemd:amd64 (237-3ubuntu10.24) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+Setting up tzdata (2019b-0ubuntu0.18.04) ...
+
+Current default time zone: 'Etc/UTC'
+Local time is now:      Mon Jul  8 00:08:24 UTC 2019.
+Universal Time is now:  Mon Jul  8 00:08:24 UTC 2019.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+Setting up systemd-sysv (237-3ubuntu10.24) ...
+Setting up bzip2 (1.0.6-8.1ubuntu0.2) ...
+Setting up libdrm-common (2.4.97-1ubuntu1~18.04.1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Setting up udev (237-3ubuntu10.24) ...
+update-initramfs: deferring update (trigger activated)
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for dbus (1.12.2-1ubuntu1.1) ...
+Setting up python3-distupgrade (1:18.04.34) ...
+Setting up libpam-systemd:amd64 (237-3ubuntu10.24) ...
+Setting up ubuntu-release-upgrader-core (1:18.04.34) ...
+Setting up libdrm2:amd64 (2.4.97-1ubuntu1~18.04.1) ...
+Processing triggers for initramfs-tools (0.130ubuntu3.8) ...
+update-initramfs: Generating /boot/initrd.img-4.15.0-1043-aws
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+]0;ubuntu@ip-10-0-2-157: ~/Team-Garbage-Bin/week2[01;32mubuntu@ip-10-0-2-157[00m:[01;34m~/Team-Garbage-Bin/week2[00m$ exit
+exit
+
+Script done on 2019-07-08 00:09:14+0000
