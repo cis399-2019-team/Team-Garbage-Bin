@@ -1,0 +1,58 @@
+Script started on 2019-07-07 21:51:16+0000
+
+]0;ubuntu@ip-10-0-2-219: ~[01;32mubuntu@ip-10-0-2-219[00m:[01;34m~[00m$ ifconfig
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 9001
+        inet 10.0.2.219  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::899:f3ff:fe4f:2c70  prefixlen 64  scopeid 0x20<link>
+        ether 0a:99:f3:4f:2c:70  txqueuelen 1000  (Ethernet)
+        RX packets 239626  bytes 295187494 (295.1 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 115231  bytes 15898437 (15.8 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 758  bytes 72424 (72.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 758  bytes 72424 (72.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;ubuntu@ip-10-0-2-219: ~[01;32mubuntu@ip-10-0-2-219[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-07-07 21:52:11+0000
+Script started on 2019-07-07 23:41:54+0000
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+
+Lucas Instance ----> 
+
+]0;ubuntu@ip-10-0-2-157: ~/Team-Garbage-Bin/week2[01;32mubuntu@ip-10-0-2-157[00m:[01;34m~/Team-Garbage-Bin/week2[00m$ ne[K[Kifconfig
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 9001
+        inet 10.0.2.157  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::834:eff:fe58:f2a  prefixlen 64  scopeid 0x20<link>
+        ether 0a:34:0e:58:0f:2a  txqueuelen 1000  (Ethernet)
+        RX packets 2841  bytes 739494 (739.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1974  bytes 282395 (282.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 176  bytes 14392 (14.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 176  bytes 14392 (14.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;ubuntu@ip-10-0-2-157: ~/Team-Garbage-Bin/week2[01;32mubuntu@ip-10-0-2-157[00m:[01;34m~/Team-Garbage-Bin/week2[00m$ exit
+exit
+
+Script done on 2019-07-07 23:43:05+0000
+
+Script done on 2019-07-07 21:52:11+0000
+>>>>>>> d95db0fe18eb9efbb1c1f4d89e1845e3edef3283
