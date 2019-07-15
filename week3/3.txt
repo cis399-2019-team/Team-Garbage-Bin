@@ -1,0 +1,12 @@
+root@ip-10-0-2-219:/etc/puppet# mv /etc/ssh/sshd_config .
+root@ip-10-0-2-219:/etc/puppet# puppet apply -t manifests/site.pp 
+Notice: Compiled catalog for ip-10-0-2-219.us-west-2.compute.internal in environment production in 0.45 seconds
+Info: Applying configuration version '1563232205'
+Notice: Applied catalog in 0.09 seconds
+root@ip-10-0-2-219:/etc/puppet# ls /etc/ssh/ 
+moduli      ssh_host_dsa_key      ssh_host_ecdsa_key      ssh_host_ed25519_key      ssh_host_rsa_key      ssh_import_id
+ssh_config  ssh_host_dsa_key.pub  ssh_host_ecdsa_key.pub  ssh_host_ed25519_key.pub  ssh_host_rsa_key.pub  sshd_config
+root@ip-10-0-2-219:/etc/puppet#
+ 
+//here we moved the sshd_config out of /etc/ssh/sshd_config and observe it was replaced after an invocation of puppet apply
+

@@ -1,0 +1,9 @@
+root@ip-10-0-2-219:/etc/puppet# mv ../../home/ubuntu/.ssh/authorized_keys ../../home/ubuntu/
+root@ip-10-0-2-219:/etc/puppet# puppet apply -t manifests/site.pp 
+Notice: Compiled catalog for ip-10-0-2-219.us-west-2.compute.internal in environment production in 0.44 seconds
+Info: Applying configuration version '1563231910'
+Notice: Applied catalog in 0.08 seconds
+root@ip-10-0-2-219:/etc/puppet# ls ../../home/ubuntu/.ssh
+authorized_keys
+
+you can see that we moved the authorized_keys file and it was replaced by puppet! 
