@@ -1,0 +1,5 @@
+ubuntu@ip-10-0-2-157:/$ sudo puppet apply -t /etc/puppet/manifests/site.pp
+Notice: Compiled catalog for ip-10-0-2-157.us-west-2.compute.internal in environment production in 0.44 seconds
+Info: Applying configuration version '1563234084'
+Notice: /Stage[main]/Sshd/Package[openssh-server]/ensure: created
+Notice: Applied catalog in 5.71 seconds
