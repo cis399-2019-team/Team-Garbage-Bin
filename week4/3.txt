@@ -1,0 +1,3 @@
+Garbage-Bin-Balancer URL: 
+
+http://garbagebinbalancer-1204142875.us-west-2.elb.amazonaws.com/
