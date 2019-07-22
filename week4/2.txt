@@ -1,0 +1,7 @@
+bellow are logs from var/log/apache2/access.log reporting my get requests from my laptop:
+
+76.115.195.234 - - [22/Jul/2019:01:14:24 +0000] "GET / HTTP/1.1" 200 294 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+76.115.195.234 - - [22/Jul/2019:01:14:24 +0000] "GET /favicon.ico HTTP/1.1" 404 540 "http://ec2-18-237-247-62.us-west-2.compute.amazonaws.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+76.115.195.234 - - [22/Jul/2019:01:15:15 +0000] "-" 408 0 "-" "-"
+76.115.195.234 - - [22/Jul/2019:01:16:46 +0000] "-" 408 0 "-" "-"
+76.115.195.234 - - [22/Jul/2019:01:16:46 +0000] "-" 408 0 "-" "-"
