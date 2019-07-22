@@ -1,0 +1,4 @@
+Results of Testing Load Balancer:
+
+One instance down: Load balancer still provides pages 
+Both instances down: Load balancer still provides pages with a slight delay 
