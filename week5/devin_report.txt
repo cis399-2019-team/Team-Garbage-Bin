@@ -1,5 +1,6 @@
 aqua-bee: success!
 mapMoney: success!
 "team-9": success!
-teamRocket: "Connection closed by 54.184.151.59 port 22"
-defaultName: "Connection closed by 54.190.27.30 port 22" 
+teamRocket: success!
+defaultName: success! 
+"team1": success!
