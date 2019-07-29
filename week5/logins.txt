@@ -7,7 +7,7 @@ JERRY: Jul 28 21:02:56 ip-10-0-2-219 sshd[21926]: pam_unix(sshd:session): sessio
 HENZI: Jul 28 23:38:21 ip-10-0-2-219 sshd[24135]: pam_unix(sshd:session): session opened for user henzi by (uid=0)
 MAPU: Jul 27 19:04:01 ip-10-0-2-219 sshd[7077]: pam_unix(sshd:session): session opened for user mapu by (uid=0)
 Kier: No login attempt recorded 
-Austin: No login attempt recorded
+Austin: 1 failed attempt recorded at 1:11pm on Monday 
 
 lucas's part:
 Successes: 
