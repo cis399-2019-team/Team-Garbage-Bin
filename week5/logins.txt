@@ -10,3 +10,11 @@ Kier: No login attempt recorded
 Austin: No login attempt recorded
 
 lucas's part:
+Successes: 
+JAMES: Jul 29 03:41:29 ip-10-0-2-157 systemd: pam_unix(systemd-user:session): session opened for user james by (uid=0)
+OWEN: Jul 29 04:17:34 ip-10-0-2-157 sshd[21047]: pam_unix(sshd:session): session opened for user owen by (uid=0)
+RICO: Jul 29 19:16:49 ip-10-0-2-157 systemd: pam_unix(systemd-user:session): session opened for user rico by (uid=0)
+STEVEV: Jul 29 19:37:37 ip-10-0-2-157 systemd: pam_unix(systemd-user:session): session opened for user stevev by (uid=0)
+
+Unsuccessful: 
+KYLIE: Jul 29 19:13:36 ip-10-0-2-157 sshd[29904]: Connection closed by authenticating user kylie 216.106.151.176 port 52466 [preauth]
