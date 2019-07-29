@@ -18,4 +18,6 @@ Alarm Details:
 - Timestamp:                  Monday 29 July, 2019 22:44:21 UTC
 - AWS Account:                006170570170
 
-ALARM 3 (NETWORK OUT):
+ALARM 3 (NETWORK OUT)
+
+
