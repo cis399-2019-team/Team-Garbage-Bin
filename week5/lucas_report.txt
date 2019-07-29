@@ -1,0 +1,6 @@
+Team		Attempt
+AquaBee		Success
+MapMoney	Success
+Team-9 		Success
+Team Rocket	Unsuccessful	“Connection closed by 54.184.151.59 port 22”
+defaultName	Success
