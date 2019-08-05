@@ -1,0 +1,32 @@
+You are receiving this email because your Amazon CloudWatch Alarm "awsec2-i-09ab26ef977ebb374-High-Network-In" in the US West (Oregon) region has entered the ALARM state, because "Threshold Crossed: 1 out of the last 1 datapoints [1310452.0 (04/08/19 13:53:00)] was greater than or equal to the threshold (100000.0) (minimum 1 datapoint for OK -> ALARM transition)." at "Sunday 04 August, 2019 13:59:06 UTC".
+
+View this alarm in the AWS Management Console:
+https://us-west-2.console.aws.amazon.com/cloudwatch/home?region=us-west-2#s=Alarms&alarm=awsec2-i-09ab26ef977ebb374-High-Network-In
+
+Alarm Details:
+- Name:                       awsec2-i-09ab26ef977ebb374-High-Network-In
+- Description:                Created from EC2 Console
+- State Change:               INSUFFICIENT_DATA -> ALARM
+- Reason for State Change:    Threshold Crossed: 1 out of the last 1 datapoints [1310452.0 (04/08/19 13:53:00)] was greater than or equal to the threshold (100000.0) (minimum 1 datapoint for OK -> ALARM transition).
+- Timestamp:                  Sunday 04 August, 2019 13:59:06 UTC
+
+
+- AWS Account:                006170570170
+
+Threshold:
+- The alarm is in the ALARM state when the metric is GreaterThanOrEqualToThreshold 100000.0 for 60 seconds. 
+
+Monitored Metric:
+- MetricNamespace:                     AWS/EC2
+- MetricName:                          NetworkIn
+- Dimensions:                          [InstanceId = i-09ab26ef977ebb374]
+- Period:                              60 seconds
+- Statistic:                           Maximum
+- Unit:                                not specified
+
+
+
+State Change Actions:
+- OK: 
+- ALARM: [arn:aws:sns:us-west-2:006170570170:Garbage-Bin]
+- INSUFFICIENT_DATA: 
